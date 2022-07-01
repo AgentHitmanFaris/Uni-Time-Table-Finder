@@ -4,7 +4,7 @@ import requests
 from requests import exceptions
 
 def main():
-    link = ('https://bpa.ums.edu.my/prev_kuliah/finder.xml')
+    link = ('http://bpa.ums.edu.my/kuliah/finder.html')
     i = 1
     source = requests.get(link)
     source.raise_for_status()
