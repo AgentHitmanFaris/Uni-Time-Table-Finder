@@ -1,4 +1,4 @@
-#update 10/2/22
+#update 01/7/22
 from bs4 import BeautifulSoup
 import requests
 from requests import exceptions
