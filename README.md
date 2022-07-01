@@ -6,7 +6,7 @@ User needs to enter the course code of the subject and this program will find it
 
 
 ## Updates
-**01/07/22
+**01/07/22**
 >Updating Webpage
 **10/2/22**
 >Adding web scrapping module
