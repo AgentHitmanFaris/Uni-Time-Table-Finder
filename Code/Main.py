@@ -1,39 +1,26 @@
-#update 01/7/22
-from bs4 import BeautifulSoup
 import requests
-from requests import exceptions
+from bs4 import BeautifulSoup
 
-def main():
-    link = ('http://bpa.ums.edu.my/kuliah/finder.html')
-    i = 1
-    source = requests.get(link)
-    source.raise_for_status()
-    print("Sucessfully connected to " + link)
-    print(source)
-    soup = BeautifulSoup(source.text,'html.parser')
-    lines = soup.find_all('resource',dept="0" ,faculty="0",)
-    print("Search result for " + link)
-    print(len(lines))
-    #print(soup)
-    gety = 40
-    print("Sucessfully execute the program") 
-    print("Total search results: ", len(lines))
-    for ini in lines:
-        aa="initial id="
-        init = aa + gety
-        a=soup.find_all('init')
-        print(init)
-        gety += 1    
+# URL of the XML file
+url = "https://bpa.ums.edu.my/next_kuliah/finder.xml"
 
-while True:
-    try:
-        main()
-        if input("\nRepeat the program? (Y/N): ").strip().upper() != 'Y':
-           break;
+# Send a GET request to the URL and get the XML content
+response = requests.get(url)
+print(response)
 
-    except Exception as e:
-        print("Error connecting to the link")
-        if input("\nRepeat the program? (Y/N): ").strip().upper() != 'Y':
-            break;
-    
+xml_content = response.text
 
+# Create a BeautifulSoup object to parse the XML content
+soup = BeautifulSoup(xml_content, "xml")
+txt = soup.find_all("name")
+x = [element.text.split("#", 1) for element in txt]
+
+# Print each data on a new line
+for data in x:
+    if len(data) == 2:
+        section1, section2 = data
+        print("Section 1:")
+        print(section1.strip()) # Remove leading/trailing whitespaces
+
+# Find the specific module
+module_code = "AA10203"
