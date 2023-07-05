@@ -1,0 +1,217 @@
+{
+    "timetable": {
+        "option": {
+            "option": {
+                "link": {
+                    "link": "Printable HTML version"
+                },
+                "weeks": {
+                    "weeks": "Weeks"
+                },
+                "dates": {
+                    "dates": "Dates"
+                },
+                "week": {
+                    "week": "Week"
+                },
+                "date": {
+                    "date": "Date"
+                },
+                "all": {
+                    "all": "All weeks"
+                },
+                "notes": {
+                    "notes": "Notes"
+                },
+                "footer": {
+                    "footer": {
+                        "br": {
+                            "br": null
+                        },
+                        "a": {
+                            "a": "CELCAT Web Publisher"
+                        }
+                    }
+                },
+                "subheading": {
+                    "subheading": "BAHAGIAN PERKHIDMATAN AKADEMIK - Bahagian Perkhidmatan Akademik KS42803 PEMPROSESAN IMEJ, KS42803 PEMPROSESAN IMEJ (Weeks 1-16, 27/03/2023 - 10/07/2023)"
+                }
+            }
+        },
+        "property": {
+            "property": null
+        },
+        "span": {
+            "span": {
+                "description": {
+                    "description": "Weeks 1-16, 27/03/2023 - 10/07/2023"
+                },
+                "title": {
+                    "title": "1-16"
+                },
+                "alleventweeks": {
+                    "alleventweeks": "YYYYYYYYYYYYYYYY"
+                },
+                "day": [
+                    {
+                        "day": {
+                            "name": {
+                                "name": "Isnin"
+                            }
+                        }
+                    },
+                    {
+                        "day": {
+                            "name": {
+                                "name": "Selasa"
+                            }
+                        }
+                    },
+                    {
+                        "day": {
+                            "name": {
+                                "name": "Rabu"
+                            }
+                        }
+                    },
+                    {
+                        "day": {
+                            "name": {
+                                "name": "Khamis"
+                            }
+                        }
+                    },
+                    {
+                        "day": {
+                            "name": {
+                                "name": "Jumaat"
+                            }
+                        }
+                    },
+                    {
+                        "day": {
+                            "name": {
+                                "name": "Sabtu"
+                            }
+                        }
+                    },
+                    {
+                        "day": {
+                            "name": {
+                                "name": "Ahad"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "event": [
+            {
+                "event": {
+                    "day": {
+                        "day": "0"
+                    },
+                    "prettytimes": {
+                        "prettytimes": "10:00-12:00 KULIAH"
+                    },
+                    "starttime": {
+                        "starttime": "10:00"
+                    },
+                    "endtime": {
+                        "endtime": "12:00"
+                    },
+                    "category": {
+                        "category": "KULIAH"
+                    },
+                    "dept": {
+                        "dept": null
+                    },
+                    "prettyweeks": {
+                        "prettyweeks": null
+                    },
+                    "rawweeks": {
+                        "rawweeks": "YYYYYYYYYYYYYYYY"
+                    },
+                    "resources": {
+                        "resources": {
+                            "module": {
+                                "module": {
+                                    "item": {
+                                        "item": "KS42803 PEMPROSESAN IMEJ (KS42803 PEMPROSESAN IMEJ)"
+                                    }
+                                }
+                            },
+                            "staff": {
+                                "staff": {
+                                    "item": {
+                                        "item": "FARRAH WONG"
+                                    }
+                                }
+                            },
+                            "room": {
+                                "room": {
+                                    "item": {
+                                        "item": "(FKJ) BT5 ((FKJ) BT5)"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "event": {
+                    "day": {
+                        "day": "4"
+                    },
+                    "prettytimes": {
+                        "prettytimes": "10:00-12:00 TUTORIAL"
+                    },
+                    "starttime": {
+                        "starttime": "10:00"
+                    },
+                    "endtime": {
+                        "endtime": "12:00"
+                    },
+                    "category": {
+                        "category": "TUTORIAL"
+                    },
+                    "dept": {
+                        "dept": null
+                    },
+                    "prettyweeks": {
+                        "prettyweeks": null
+                    },
+                    "rawweeks": {
+                        "rawweeks": "YYYYYYYYYYYYYYYY"
+                    },
+                    "resources": {
+                        "resources": {
+                            "module": {
+                                "module": {
+                                    "item": {
+                                        "item": "KS42803 PEMPROSESAN IMEJ (KS42803 PEMPROSESAN IMEJ)"
+                                    }
+                                }
+                            },
+                            "staff": {
+                                "staff": {
+                                    "item": {
+                                        "item": "FARRAH WONG"
+                                    }
+                                }
+                            },
+                            "room": {
+                                "room": {
+                                    "item": {
+                                        "item": "(FKJ) BT6 & 7 ((FKJ) BT6 & 7)"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}
