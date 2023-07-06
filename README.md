@@ -1,4 +1,4 @@
-# Time-Table-Finder
+# Uni-Time-Table-Finder
 
 Time-Table-Finder is a Python project that allows you to retrieve timetable information for specific module codes. It retrieves XML data from a given URL, parses it, and displays the timetable information in a table format. You also have the option to generate a PDF of the timetable.
 
