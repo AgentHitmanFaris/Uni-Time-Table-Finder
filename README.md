@@ -35,6 +35,15 @@ $ https://github.com/AgentHitmanFaris/Time-Table-Finder.git
 - requests
 - tqdm
 
+
+4. Follow the on-screen prompts to enter module codes for which you want to retrieve timetable information.
+
+5. The program will display the timetable information in a table format.
+
+6. If you want to generate a PDF of the timetable, enter "Y" when prompted and provide a PDF filename.
+
+7. The PDF will be generated and saved in the current directory.
+
 ## License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE) file for details.
