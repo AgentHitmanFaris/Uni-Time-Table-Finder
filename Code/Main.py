@@ -2,7 +2,6 @@ import requests
 import time
 import xml.etree.ElementTree as ET
 import json
-import textwrap
 from pdf_generator import generate_timetable_pdf
 from tqdm import tqdm
 
