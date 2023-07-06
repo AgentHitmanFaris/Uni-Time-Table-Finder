@@ -1,52 +1,38 @@
 # Time-Table-Finder
-This project using Beautiful Soup to find and quickly sort my time table at my school
-## Getting Started
 
-To use this web scraper, follow these steps:
+Time-Table-Finder is a project that allows you to retrieve timetable information for specific module codes. It retrieves XML data from a given URL, parses it, and displays the timetable information in a table format. You also have the option to generate a PDF of the timetable.
 
-1. Install the required libraries:
-   - `requests`
-   - `beautifulsoup4`
+## Installation
 
-2. Clone this repository:
-   ```bash
-   git clone https://github.com/AgentHitmanFaris/Time-Table-Finder
-Run the Python script:
+1. Clone the repository:
+    git clone https://github.com/AgentHitmanFaris/Time-Table-Finder
 
-bash
-Copy code
-python scraper.py
-Open the generated web page in a browser to view the extracted data.
+3. Install the required dependencies:
+pip install requests xmltodict reportlab
 
-Usage
-The scraper.py script intercepts the connection using Burp Suite and captures the required JSON data from the specified URL.
-It then processes the data and generates a web page that displays the extracted information.
-Example
-In the provided example, the scraper searches for the module AA10203 PENGANTAR SOSIOLOGI and extracts the corresponding day and time information from the BPA UMS website.
+## Usage
 
-Dependencies
-Python 3.x
-Requests library
-BeautifulSoup4 library
-Contributing
-Contributions are welcome! Please feel free to open issues or submit pull requests for any improvements or additional features.
+1. Open the `Main.py` file in a text editor.
 
-License
-This project is licensed under the MIT License.
+2. Update the `url` variable with the URL of the XML file containing the timetable data.
 
-Feel free to modify the content as needed, including adding installation instructions, additional sections, or customizing it further to suit your repository's needs.
+3. Run the `Main.py` file:
+python Main.py
 
- 
-## How it works
-User needs to enter the course code of the subject and this program will find it on the website, using powerfull algorithm the program will fidns and sort the time table according to date and time, and it will show to output using pdf/excel file.
+4. Follow the on-screen prompts to enter module codes for which you want to retrieve timetable information.
 
+5. The program will display the timetable information in a table format.
 
-## Updates
-**22/06/23**
->Update new hashing algorithm
->
-**01/07/22**
->Updating Webpage
+6. If you want to generate a PDF of the timetable, enter "Y" when prompted and provide a PDF filename.
 
-**10/2/22**
->Adding web scrapping module
+7. The PDF will be generated and saved in the current directory.
+
+## Dependencies
+
+- requests
+- xmltodict
+- reportlab
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
