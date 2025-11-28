@@ -1,48 +1,60 @@
 # Time-Table-Finder
 
-Time-Table-Finder is a Python project that allows you to retrieve timetable information for specific module codes. It retrieves XML data from a given URL, parses it, and displays the timetable information in a table format. You also have the option to generate a PDF of the timetable.
+Time-Table-Finder is a Python application designed to retrieve and display timetable information for specific module codes from the UMS (Universiti Malaysia Sabah) server. It fetches XML data, parses it, and presents the schedule in a readable table format. Users can also generate a PDF version of the timetable.
+
+## Purpose
+
+The main purpose of this tool is to simplify the process of checking class schedules for students and staff. Instead of navigating complex websites, users can quickly input their module codes and get the relevant timetable details, including day, time, venue, and instructor.
 
 ## Installation
 
-1. Clone the repository:
-```
-$ https://github.com/AgentHitmanFaris/Time-Table-Finder.git
-```
+1.  **Clone the repository:**
+    ```bash
+    git clone https://github.com/AgentHitmanFaris/Time-Table-Finder.git
+    cd Time-Table-Finder
+    ```
 
-2. Install the required dependencies:
-- If you have pip installed:
-  ```
-  pip install -r requirements.txt
-  ```
-- If you have pipenv installed:
-  ```
-  pipenv install
-  ```
+2.  **Install the required dependencies:**
+    It is recommended to use a virtual environment.
 
-3. Run the `Main.py` file:
+    *   Using `pip`:
+        ```bash
+        pip install -r requirements.txt
+        ```
 
-4. Follow the on-screen prompts to enter module codes for which you want to retrieve timetable information.
+    *   Using `pipenv`:
+        ```bash
+        pipenv install
+        ```
 
-5. The program will display the timetable information in a table format.
+## Usage
 
-6. If you want to generate a PDF of the timetable, enter "Y" when prompted and provide a PDF filename.
+1.  **Run the application:**
+    ```bash
+    python Main.py
+    ```
 
-7. The PDF will be generated and saved in the current directory.
+2.  **Enter Module Codes:**
+    - The program will prompt you to enter a module code (e.g., `KT12303`).
+    - You can enter multiple module codes one by one.
+    - Leave the input blank and press Enter when you are done adding modules.
+
+3.  **View Timetable:**
+    - The program will search for the modules and display the timetable information (Day, Time, Category, Staff, Room) in the console.
+
+4.  **Generate PDF:**
+    - After displaying the results, you will be asked if you want to generate a PDF.
+    - Enter `Y` (Yes) to generate a PDF.
+    - Provide a name for the PDF file when prompted.
+    - The PDF will be saved in the current directory.
 
 ## Dependencies
 
-- reportlab
-- requests
-- tqdm
+The project relies on the following Python packages:
 
-
-4. Follow the on-screen prompts to enter module codes for which you want to retrieve timetable information.
-
-5. The program will display the timetable information in a table format.
-
-6. If you want to generate a PDF of the timetable, enter "Y" when prompted and provide a PDF filename.
-
-7. The PDF will be generated and saved in the current directory.
+-   `reportlab`: For generating PDF files.
+-   `requests`: For making HTTP requests to fetch XML data.
+-   `tqdm`: For displaying progress bars.
 
 ## License
 
