@@ -3,7 +3,25 @@ from reportlab.lib import colors
 from reportlab.platypus import SimpleDocTemplate, Table, TableStyle
 
 def generate_timetable_pdf(table_headers, table_data, pdf_filename):
+    """
+    Generates a PDF file containing a timetable table.
 
+    This function creates a PDF document with a formatted table based on the
+    provided headers and data. It uses the ReportLab library to construct
+    the PDF.
+
+    Args:
+        table_headers (list): A list of strings representing the column headers
+            of the table.
+        table_data (list): A list of lists, where each inner list represents a
+            row of data in the table corresponding to the headers.
+        pdf_filename (str): The name of the PDF file to be created (including
+            the .pdf extension).
+
+    Returns:
+        None: This function does not return a value. It prints a success message
+        to the console upon completion.
+    """
     doc = SimpleDocTemplate(pdf_filename, pagesize=letter)
     data = [table_headers] + table_data
 
